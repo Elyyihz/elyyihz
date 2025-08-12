@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Elyyihz",
+    "slug": "elyyihz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.elyyihz.elyyihz"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.elyyihz.elyyihz"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "89693fb5-d2a8-4aa7-aa4c-3c5ccf59580d"
+      }
+    },
+    "owner": "elyyihz",
+    "updates": {
+      "url": "https://u.expo.dev/89693fb5-d2a8-4aa7-aa4c-3c5ccf59580d"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
