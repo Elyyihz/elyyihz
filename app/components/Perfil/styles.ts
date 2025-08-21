@@ -4,6 +4,7 @@ export const styles = StyleSheet.create({
   image: {
     width: 200,
     height: 200,
-    margin: "auto"
+    margin: "auto",
+    borderRadius: "50%"
   },
 });
